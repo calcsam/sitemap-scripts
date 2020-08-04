@@ -70,7 +70,6 @@ for page in intersection_list:
     org_paths_on_com.write(page + "\n")
 
 # FIND PATHS FROM ORG THAT ARE NOT ON COM
-# https://stackoverflow.com/questions/3462143/get-difference-between-two-lists
 org_paths_not_on_com = open("org_paths_not_on_com.txt", "w", newline="\n")
 for org_page in org_pages:
     if org_page not in com_pages:

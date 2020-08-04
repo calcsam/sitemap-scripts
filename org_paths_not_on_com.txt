@@ -3723,7 +3723,7 @@
 /showcase/www.ronaldlangeveld.com/
 /showcase/www.runleeds.co.uk/
 /showcase/www.runly.io/
-/showcase/www.ryanwiemer.com/
+/showcase/www.ryanwiemer.com/r
 /showcase/www.sainsburys.co.uk/
 /showcase/www.sals-pals.net/
 /showcase/www.samirmujanovic.com/

@@ -1,0 +1,7 @@
+200 response for /
+404 response for /accessibility-statement/
+200 response for /blog/
+200 response for /blog/100days/
+404 response for /broken-link/will-fail/
+200 response for /packages/gatsby-source-filesystem/
+200 response for /blog/tags/v-1/
