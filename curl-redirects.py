@@ -12,7 +12,7 @@ path_to_verify_at = base_path
 total_count = 0
 broken_count = 0
 
-org_paths = 'org_paths_short.txt'
+org_paths = 'org_paths.txt'
 broken_links = open("broken_links.txt", "w", newline="")
 curl_redirect_results = open("curl_redirect_results.txt", "w", newline="")
 
@@ -32,7 +32,6 @@ with open(org_paths) as fp:
             path_to_verify_at = docs_path
         elif "tutorial" in path:
             path_to_verify_at = docs_path
-        print(path_to_verify_at)
         try:
             status_code = subprocess.check_output(
                 f'curl -L -s -o /dev/null -w "%{{http_code}}" {path_to_verify_at}{path}', shell=True, universal_newlines=True).strip()
