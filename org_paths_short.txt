@@ -2,6 +2,6 @@
 /accessibility-statement/
 /blog/
 /blog/100days/
-/broken-link/will-fail/
-/packages/gatsby-source-filesystem/
 /blog/tags/v-1/
+/broken-link/will-fail-test/
+/packages/gatsby-source-filesystem/

@@ -26,6 +26,8 @@ with open(org_paths) as fp:
             print(f'{status_code} response for {path}')
             broken_links.write(base_path + path + "\n")
             broken_count += 1
+        else:
+            print(f'{status_code} response for {path}')
 
         curl_redirect_results.write(
             f'{status_code} response for {path}' + "\n")
