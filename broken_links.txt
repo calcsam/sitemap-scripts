@@ -1,0 +1,7 @@
+https://mini-org.netlify.app/accessibility-statement/
+https://mini-org.netlify.app/broken-link/will-fail-test/
+https://mini-org.netlify.app/features/
+https://mini-org.netlify.app/features/jamstack/gatsby-vs-nuxtjs/
+https://mini-org.netlify.app/guidelines/color/
+https://mini-org.netlify.app/languages/
+https://mini-org.netlify.app/readme/
