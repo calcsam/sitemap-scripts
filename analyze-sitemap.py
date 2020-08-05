@@ -35,7 +35,6 @@ def remove_tags(pages, text_to_split="<loc>"):
     parsed_pages = []
     for page in pages:
         path = page.split(text_to_split)[1].split("</loc>")[0]
-        path = path.lower()
         if path[-1] != "/":
             path = path + "/"
         parsed_pages.append(path)

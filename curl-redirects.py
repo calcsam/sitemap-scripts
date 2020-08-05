@@ -5,14 +5,13 @@ import subprocess
 from multiprocessing.pool import ThreadPool as Pool
 
 base_path = "https://mini-org.netlify.app"
-showcase_path = "https://build-779aae1b-53d4-4368-9d4a-b676393eec63.gtsb.io"
-docs_path = "https://build-ac6abc5b-6906-4339-b14b-d8e8a8c41fb7.gtsb.io/"
+showcase_path = "https://build-45f9a6c2-5292-404d-b808-7099e04f8d88.gtsb.io"
 path_to_verify_at = base_path
 
 total_count = 0
 broken_count = 0
 
-org_paths = 'org_paths.txt'
+org_paths = 'top_500_paths_from_analytics.txt'
 broken_links = open("broken_links.txt", "w", newline="")
 curl_redirect_results = open("curl_redirect_results.txt", "w", newline="")
 
@@ -26,12 +25,7 @@ with open(org_paths) as fp:
             path_to_verify_at = showcase_path
         elif "showcase" in path:
             path_to_verify_at = showcase_path
-        elif "docs" in path:
-            path_to_verify_at = docs_path
-        elif "contributing" in path:
-            path_to_verify_at = docs_path
-        elif "tutorial" in path:
-            path_to_verify_at = docs_path
+
         try:
             status_code = subprocess.check_output(
                 f'curl -L -s -o /dev/null -w "%{{http_code}}" {path_to_verify_at}{path}', shell=True, universal_newlines=True).strip()
