@@ -4,7 +4,7 @@ import os
 import subprocess
 from multiprocessing.pool import ThreadPool as Pool
 
-base_path = "https://mini-org.netlify.app"
+base_path = "mansion-docsredesign.gtsb.io"
 
 total_count = 0
 broken_count = 0
