@@ -4,7 +4,8 @@ import os
 import subprocess
 from multiprocessing.pool import ThreadPool as Pool
 
-base_path = "mansion-docsredesign.gtsb.io"
+
+base_path = "docs-redesign-test-redirects.netlify.app"
 
 total_count = 0
 broken_count = 0
